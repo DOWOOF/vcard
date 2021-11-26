@@ -21,6 +21,6 @@
         "phpunit/phpunit": "4.6.*"
     },
     "autoload": {
-        "psr-4": { "DOWOOF\\VCard\\": "src/" }
+        "psr-4": { "dowoof\\VCard\\": "src/" }
     }
 }

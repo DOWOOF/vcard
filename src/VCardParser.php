@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenDesloovere\VCard;
+namespace dowoof\VCard;
 
 /*
  * This file is part of the VCard PHP Class from Jeroen Desloovere.
@@ -267,9 +267,6 @@ class VCardParser implements Iterator
                         break;
                     case 'CATEGORIES':
                         $cardData->categories = array_map('trim', explode(',', $value));
-                        break;
-                    case 'LABEL':
-                        $cardData->label = $value;
                         break;
                 }
             }
